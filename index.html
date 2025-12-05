@@ -18,14 +18,84 @@ rel="stylesheet"/>
 <body> 
     <div class="page">
         <header class="header"></header>
-        <main class="content">
+        <nav class="nav">
+            <img src="./images/logo_coffeeshop_dark.svg"
+             alt="CoffeeShop logo" 
+             class="nav_logo"
+             />
+             <ul class="nav_links">
+                <il>
+                <a href="#recipes" class="nav_link">Recipes</a>
+                </il>
+                <il>
+                <a href="#reservations" class="nav_link">Book a table</a>
+                </il>
+                <il>
+                <a href="#menu" class="nav_link">Menu</a>
+                </il>
+                <il>
+                <a href="#contacts" class="nav_link">Contacts</a>
+                </il>
+             </ul>
+            </nav>
+            <h1 class="header__title">
+            <span class="header__span-accent">Specialty Coffee</span>in the Triple Ten
+             Peaks library
+            </h1>
+            <p class="header__description">
+                Welcome to our study zone! We've got the coffee to energize you and 
+                the cozy vibes to help you get creative.
+            </p>
+            <img src="./images/inside_coffee_shop.png"
+            alt="Illustration of a coffeeshop"
+            class="header__image"
+            />
+            <div class="header__footer">
+            <div>
+                <p class="header__paragraph">Hours:</p>
+                <p class="header__paragraph">Monday Friday(10:00 19:00)</p>
+                <p class="header__paragraph">Saturday Sunday(11:00 18:00) </p>
+                <p class="header__paragraph">
+                    200 Success Avenue, The Town of Triple Peaks
+                </p>
+            </div>
+            </div>
+            <main class="content">
             <section class="recipes"></section>
-            <section class="reservations"></section>
-            <section class="menu"></section>
-            <section class="about" id="about"></section>
-            
-         </main>
-        <footer class="footer"></footer>
+            <h2 class="recipes__title">Recipes</h2>
+            <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing 
+                convenience:
+            </p>
+            <ul class="recipes__videos">
+                display: flex;
+                justify-content: center;
+                gap: 100px;
+               <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                >
+            </iframe>
+            <span>Title</span><span>Time</span>
+              <li>
+                 <iframe 
+                 width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/j6VlT_JUVPc?si=OVpU2XQ94uYJBN1p"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                 ></iframe>
+              </li>
+                <p class="recipes__video-caption">Title Time</p>
+                <span>Title</span><span>Time</span>
+            </ul>   
+         <section class="reservations"></section>
+         <section class="menu"></section>
+        <section class="about"></section>
+       </main> 
+        <footer id="contacts" class="footer"></footer>
     </div>
 </body>
 </html>
