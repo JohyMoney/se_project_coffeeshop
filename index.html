@@ -28,7 +28,7 @@ rel="stylesheet"/>
                 <a href="#recipes" class="nav__link">Recipes</a>
                 </li>
                 <li>
-                <a href="#reservations" class="nav__link">Book a table</a>
+                <a href="#reservation" class="nav__link">Book a table</a>
                 </li>
                 <li>
                 <a href="#menu" class="nav__link">Menu</a>
@@ -104,31 +104,31 @@ rel="stylesheet"/>
               </li>
             </ul> 
             </section>
-         <section id="reservations" class="reservations">
-            <h2 class="reservations__title">Book a table</h2>
-            <form class="reservations__form">
-                <fieldset class="reservations__fieldset">
-               <label for="name-input" class ="reservations__label">
+         <section id="reservation" class="reservation">
+            <h2 class="reservation__title">Book a table</h2>
+            <form class="reservation__form form">
+                <fieldset class="form__fieldset">
+               <label for="name-input" class ="form__label">
                 Name *
-                <input  class ="reservations__input" id="name-input" required type="text" placeholder="Name Surname"/>
+                <input  class ="form__input" id="name-input" required type="text" placeholder="Name Surname"/>
                </label>
-                <label for="guests-input" class ="reservations__label">
+                <label for="guests-input" class ="form__label">
                     Number of guests *
-                <input  class ="reservations__input" id="guests-input" required type="number" min="1" max="8"
+                <input  class ="form__input" id="guests-input" required type="number" min="1" max="8"
                 placeholder="1-8"/>
                 </label>
-                <label for="datetime-input" class ="reservations__label">
+                <label for="datetime-input" class ="form__label" >
                     Date and time *
-                <input  class ="reservations__input" id="datetime-input" required type="datetime-local" />
+                <input  class ="form__input" id="datetime-input" required type="datetime-local" />
                 </label>
-                <label for="email-input" class ="reservations__label"  > 
+                <label for="email-input" class ="form__label"  > 
                     your email *
-                <input  class ="reservations__input" id="email-input" required type="email" placeholder="email@example.com"/>
+                <input  class ="form__input" id="email-input" required type="email" placeholder="email@example.com"/>
                 </label>
                 </fieldset>
-                <button class="reservations__button"> Book a table</button>
-                 <label for="" class ="reservations__label reservations__label_type-checkbox"  > 
-                <input  class ="reservations__checkbox" type="checkbox"/>
+                <button class="form__button"> Book a table</button>
+                 <label for="terms-checkbox" class ="form__label form__label_type-checkbox"  > 
+                <input  class ="form__checkbox" id="terms-checkbox" type="checkbox"/>
                   I agree with the terms of use *
                 </label>
                 </form>
@@ -139,4 +139,4 @@ rel="stylesheet"/>
         <footer id="contacts" class="footer"></footer>
     </div>
 </body>
-</html
+</html>
