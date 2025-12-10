@@ -8,8 +8,7 @@
     <meta name="description" content="A cozy coffee shop with great atmosphere"/>
     <meta name="keywords" content="coffee, cafe, drinks, food, library, books"/>
     <link rel="stylesheet" href="./pages/index.css"/>
-    <link rel="stylesheet" href="./vendor/normalize.css"/>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel= "icon" href="./favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" 
@@ -63,7 +62,7 @@ rel="stylesheet"/>
         </header>
         <main class="content">
             <section id="recipes" class="recipes">
-          <h2 class="recipes__title">Specialty coffee in the Triple Peaks Library</h2>
+          <h2 class="recipes__title">Recipes</h2>
             <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing 
                 convenience:
             </p>
@@ -75,7 +74,6 @@ rel="stylesheet"/>
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc" 
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -130,13 +128,112 @@ rel="stylesheet"/>
                  <label for="terms-checkbox" class ="form__label form__label_type-checkbox"  > 
                 <input  class ="form__checkbox" id="terms-checkbox" type="checkbox"/>
                   I agree with the terms of use *
+                  <input type="checkbox" name="terms" required>
                 </label>
                 </form>
                 </section>
-         <section id="menu" class="menu"></section>
-        <section id="about" class="about"></section>
+         <section id="menu" class="menu"> <h2 class="menu__title">Menu</h2>
+            <p class="menu__subtitle">We brew locally roasted, fairtrade coffee certified beans and use biodegradable cups. All teas from our collection are $2/cup.
+             </p>
+             <li class="card">
+             <h3 class ="card__title"></h3>
+             <ul class="card list">
+             <li class ="card__item">Regular (12oz) <span class="card__list-divider"></span>
+            </li>
+                <li class ="card__item">Large (16oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                 <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li> 
+                </li>
+             </li>
+            </ul>
+            <li class="card">
+             <h3 class ="card__title">Filter</h3>
+             <ul class="card list">
+             <li class ="card__item">Regular (12oz) <span class="card__list-divider"></span>
+            </li>
+                <li class ="card__item">Large (16oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                 <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li> 
+                </li>
+             </li>
+             <li class="card">
+             <h3 class ="card__title">Espresso</h3>
+             <ul class="card list">
+             <li class ="card__item">Regular (12oz) <span class="card__list-divider"></span>
+            </li>
+                <li class ="card__item">Large (16oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                 <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li> 
+                </li>
+             </li>
+             <li class="card">
+             <h3 class ="card__title"> Baked goods</h3>
+             <ul class="card list">
+             <li class ="card__item">Regular (12oz) <span class="card__list-divider"></span>
+            </li>
+                <li class ="card__item">Large (16oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                 <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li>
+                <li class ="card__item">Extra Large (20oz) <span class="card__list-divider"></span>
+                </li> 
+                </li>
+             </li>
+
+        </section>
+        <section id="about" class="about">
+            <h2 class="about__title">About the coffeeshop</h2>
+            <div class="about__content">
+                <p class="about__paragraph"> Our coffee shop is located in the Triple Peaks Library. It features 6 
+tables and free WiFi.
+                </p>
+                <p class="about__paragraph">Our main mission is keeping guests cozy and energized.
+                </p>
+                <p class="about__paragraph"> Besides that, we try to reduce our environmental impact — so we 
+don't sell single-use cups. But you can buy one of our reusable cups!
+                </p>
+            </div>
+            <div class="about__circle"></div>
+            <div class="about__circle  about__circle_animation_blurred"></div>
+
+        </section>
         </main>
-        <footer id="contacts" class="footer"></footer>
+        <footer id="contacts" class="footer">
+            <div class="footer__content">
+                <img src="./images/logo_coffeeshop_light.svg" alt="Triple Espresso logo" class="footer__logo">
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__column-heading">social media</h3>
+                    <ul class="footer__column-list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__social-link">Facebook</a>
+                            <img src="./images/icon_facebook.svg" alt="Facebook icon" class="footer__social-icon"/>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__social-link">Instagram</a>
+                            <img src="./images/icon_instagram.svg" alt="Instagram icon" class="footer__social-icon"/>
+                        </li>
+                </div>
+            </div>
+            <p class="footer__copyright">©copy; 2024 John Mahoney</p>
+        </footer>
     </div>
 </body>
 </html>
