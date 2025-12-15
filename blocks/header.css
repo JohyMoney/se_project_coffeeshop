@@ -25,7 +25,8 @@
 
 .header__paragraph{
     margin: 0;
-    font-style: italic;
+    font-weight: 500;
+    color: #6f6f6f;
 }
 
 
@@ -49,4 +50,5 @@
     margin: 28px 0 0;
     max-width: 683px;
     font-style: italic;
+
 }
