@@ -42,13 +42,16 @@
 
 .header__span-accent{
     display: block;
-    font-family:"noto-serif","times new roman",serif; 
+    font-family:"Noto Serif","Times New Roman",serif; 
     font-style: italic;
     color: #3f96f3;
 }
 .header__description{
-    margin: 28px 0 0;
-    max-width: 683px;
-    font-style: italic;
+   font-family: "Noto Serif", "Times New Roman", serif;
+  max-width: 683px;
+  font-size: clamp(16px, 1.37vw, 20px);
+  line-height: 1.5;
+  margin: 28px 0 8%;
 
 }
+
