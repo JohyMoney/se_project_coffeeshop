@@ -18,17 +18,20 @@
     font-family: "Noto Serif", "Times New Roman", serif;
     font-size: 20px;
     line-height: 30px;
+    max-width: 438px;
 }
   
 .recipes__videos{
     display:flex;
     justify-content: center;
-    gap: 100px;
+    gap: 40px;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .recipes__video-caption{
+    margin-bottom: 0;
    display: flex;
    justify-content: space-between;
 }
@@ -39,3 +42,4 @@
     border:none;
 
 }
+
