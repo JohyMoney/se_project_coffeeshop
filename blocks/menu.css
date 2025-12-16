@@ -22,9 +22,9 @@
 .menu__subtitle{
     margin: 0 0 100px;
     max-width: 780px;
-    font-style: italic;
     font-family: "Noto Serif", "Times New Roman", serif;
     text-align: center;
+    font-size: large;
 }
 
 .menu__cards{
@@ -36,6 +36,7 @@
     gap: 100px;
     justify-content: center;
 }
+
 
 
 
