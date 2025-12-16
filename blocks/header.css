@@ -38,6 +38,7 @@
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.6px;
+    z-index: 1
 }
 
 .header__span-accent{
@@ -54,4 +55,5 @@
   margin: 28px 0 8%;
 
 }
+
 
