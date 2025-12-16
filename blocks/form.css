@@ -16,6 +16,8 @@
     margin: 8px 0 32px;
     border: 1px solid #838383;
     border-radius: 4px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .form__button{
@@ -28,7 +30,6 @@
     color: #fff;
     cursor: pointer;
     transition: background-color 0.5s;
-    background-color: #3f96f3;
 }
 
 .form__button:hover{
@@ -45,4 +46,5 @@
    display: flex;
     gap: 12px;
     justify-content: center;
+
 }
